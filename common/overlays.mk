@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
     PixelConfigOverlayCommon_GMS \
     PixelDocumentsUIGoogleOverlay_GMS \
     PixelSetupWizardOverlay2024_GMS \
+    PixelSetupWizardOverlayExpressive_GMS \
     SettingsOverlay_GMS \
     SettingsProviderOverlay_GMS \
     SystemUIGXOverlay_GMS \
