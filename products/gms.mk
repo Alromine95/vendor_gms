@@ -58,6 +58,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     setupwizard.feature.provisioning_profile_mode=true
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    setupwizard.theme=glif_v4_light
+    setupwizard.theme=glif_expressive
 
 $(call inherit-product, vendor/pixel/gms/common/common-vendor.mk)
