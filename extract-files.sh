@@ -8,6 +8,10 @@
 
 set -e
 
+for c in xmlstarlet sponge xml_pp apktool; do
+  command -v "$c" >/dev/null 2>&1 || { echo "Missing: $c" >&2; exit 1; }
+done
+
 DEVICE=common
 VENDOR=pixel/gms
 
