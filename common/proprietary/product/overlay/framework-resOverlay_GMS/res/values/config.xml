@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Whether to enable network location overlay which allows network location provider to be
+         replaced by an app at run-time. When disabled, only the
+         config_networkLocationProviderPackageName package will be searched for network location
+         provider, otherwise any system package is eligible. Anyone who wants to disable the overlay
+         mechanism can set it to false. -->
+    <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
+
+    <!-- Whether to enable fused location provider overlay which allows fused location provider to
+         be replaced by an app at run-time. When disabled, only the
+         config_fusedLocationProviderPackageName package will be searched for fused location
+         provider, otherwise any system package is eligible. Anyone who wants to disable the overlay
+         mechanism can set it to false. -->
+    <bool name="config_enableFusedLocationOverlay" translatable="false">true</bool>
+    <string-array name="config_locationExtraPackageNames" translatable="false">
+        <item>com.google.android.gms.location.history</item>
+    </string-array>
+
+    <!-- Whether to enable geocoder overlay which allows geocoder to be replaced
+         by an app at run-time. When disabled, only the
+         config_geocoderProviderPackageName package will be searched for
+         geocoder, otherwise any system package is eligible. Anyone who wants to
+         disable the overlay mechanism can set it to false.
+         -->
+    <bool name="config_enableGeocoderOverlay" translatable="false">true</bool>
+
+    <!-- Whether to enable geofence overlay which allows geofence to be replaced
+         by an app at run-time. When disabled, only the
+         config_geofenceProviderPackageName package will be searched for
+         geofence implementation, otherwise any system package is eligible. Anyone who
+         wants to disable the overlay mechanism can set it to false.
+         -->
+    <bool name="config_enableGeofenceOverlay" translatable="false">true</bool>
+
+    <!-- Package name(s) containing location provider support. These packages will be auto-granted
+         several permissions by the system, and should be system packages. -->
+    <string-array name="config_locationProviderPackageNames" translatable="false">
+        <item>com.google.android.gms</item>
+        <item>com.android.location.fused</item>
+    </string-array>
+    <string-array name="config_ringtoneVibrationPatternToMetricIdMapping" translatable="false">
+        <item>Classic_ringtone.xml,101</item>
+        <item>Bumps.xml,102</item>
+        <item>Buzz.xml,103</item>
+        <item>Rhythm.xml,104</item>
+        <item>Swirl.xml,105</item>
+        <item>Drumbeat.xml,106</item>
+        <item>Swoop.xml,107</item>
+        <item>Snare.xml,108</item>
+        <item>Heartbeat.xml,110</item>
+        <item>Gears.xml,111</item>
+    </string-array>
+    <string-array name="config_notificationVibrationPatternToMetricIdMapping" translatable="false">
+        <item>Classic_notification.xml,201</item>
+        <item>Taps.xml,202</item>
+        <item>Blip.xml,203</item>
+        <item>Rumble.xml,204</item>
+        <item>Waves.xml,205</item>
+        <item>Soft_rise.xml,206</item>
+        <item>Tremor.xml,207</item>
+        <item>Fireworks.xml,208</item>
+        <item>Rattlesnake.xml,209</item>
+        <item>Whir.xml,210</item>
+        <item>Rapid_fire.xml,211</item>
+    </string-array>
+
+    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
+         handle wallpaper cropping.
+    -->
+    <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
+
+    <!-- Flag indicating whether the assist disclosure can be disabled using
+         ASSIST_DISCLOSURE_ENABLED. -->
+    <bool name="config_allowDisablingAssistDisclosure">true</bool>
+
+    <!-- Package name for the device provisioning package. -->
+    <string name="config_deviceProvisioningPackage">com.google.android.apps.work.oobconfig</string>
+
+    <!-- Maximum number of active tasks on a given Desktop Windowing session. Set to 0 for unlimited. -->
+    <integer name="config_maxDesktopWindowingActiveTasks">5</integer>
+
+    <!-- Biometrics fingerprint frr notification target activity component name, it shall be customized by OEMs -->
+    <string name="config_fingerprintFrrTargetComponent" translatable="false">com.android.settings/com.google.android.settings.biometrics.combination.ui.view.FrrCommonNotificationActivity</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Text of the first time usage tooltip of the "ambientcue" area. [CHAR LIMIT=NONE] -->
+    <string name="ambientcue_first_time_edu_text">(M)[Ḿåĝîç Çûé ûšéš ÅÎ ţö þŕöåçţîVéļý šûĝĝéšţ îñƒö åñð åçţîöñš ŕéļéVåñţ ţö ŵĥåţ ýöû’ŕé ðöîñĝ öñ šçŕééñ one two three four five six seven eight nine ten eleven]</string>
+</resources>

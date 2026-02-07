@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2026 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- The name of the package that will hold the wallet role by default. -->
+    <string name="config_defaultWallet" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+
+    <!-- The name of the package that will hold the device management role -->
+    <string name="config_devicePolicyManagement" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.ŵöŕķ.çļöûððþç:23962F4β43β9857638ÉÅ66F4Ð419518ÉÅÉ282491ÅÇÐÅ4β94707βÐ59003Ç45É58 one two three four five six seven eight nine ten eleven]</string>
+
+    <!-- The name of the package that will handle updating the device management role. -->
+    <string name="config_devicePolicyManagementUpdater" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+
+    <!-- The component name, flattened to a string, for the default select to speak service to be
+         enabled by the accessibility keyboard shortcut. If the service with the specified component
+         name is not preinstalled then this shortcut will do nothing. -->
+    <string name="config_defaultSelectToSpeakService" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ḿåŕVîñ.ţåļķɓåçķ/çöḿ.ĝööĝļé.åñðŕöîð.åççéššîɓîļîţý.šéļéçţţöšþéåķ.ŠéļéçţŢöŠþéåķŠéŕVîçé one two three four five six seven eight nine ten eleven]</string>
+
+    <!-- The component name, flattened to a string, for the default voice access service to be
+     enabled by the accessibility keyboard shortcut. If the service with the specified component
+     name is not preinstalled then this shortcut will do nothing. -->
+    <string name="config_defaultVoiceAccessService" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.åççéššîɓîļîţý.Vöîçéåççéšš/çöḿ.ĝööĝļé.åñðŕöîð.åþþš.åççéššîɓîļîţý.Vöîçéåççéšš.ĴûšţŠþéåķŠéŕVîçé one two three four five six seven eight nine ten eleven twelve]</string>
+
+    <!-- Default component for QR code scanner -->
+    <string name="config_defaultQrCodeComponent">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš/.ḿļķîţ.ɓåŕçöðé.ûî.ÞļåţƒöŕḿβåŕçöðéŠçåññîñĝÅçţîVîţýÞŕöхý one two three four five six seven eight]</string>
+
+    <!-- Package name of Health Connect data migrator application.  -->
+    <string name="config_healthConnectMigratorPackageName">(M)[çöḿ.ĝööĝļé.åñðŕöîð.åþþš.ĥéåļţĥðåţå one two three four]</string>
+
+    <!-- Action for opening identity check settings page [CHAR LIMIT=NONE] [DO NOT TRANSLATE] -->
+    <string name="identity_check_settings_action">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš.þéŕšöñåļšåƒéţý.šéţţîñĝš.ÎÐÉÑŢÎŢÝ_ÇĤÉÇĶ_ŠŴÎŢÇĤ one two three four five six seven eight]</string>
+
+    <!-- Package for opening identity check settings page [CHAR LIMIT=NONE] [DO NOT TRANSLATE] -->
+    <string name="identity_check_settings_package_name">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+
+    <!-- The name of the system package that will hold the dependency installer role. -->
+    <string name="config_systemDependencyInstaller" translatable="false">(M)[çöḿ.ĝööĝļé.åñðŕöîð.ĝḿš one two three]</string>
+</resources>
