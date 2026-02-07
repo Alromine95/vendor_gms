@@ -1,4 +1,4 @@
-# Extracted from caiman-ota-bp2a.250705.008
+# Extracted from caiman-ota-bp4a.251205.006
 
 # Dialer
 product/etc/permissions/com.google.android.dialer.support.xml
