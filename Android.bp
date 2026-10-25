@@ -1,0 +1,42 @@
+android_app_import {
+    name: "GmsCore",
+    apk: "proprietary/GmsCore/GmsCore.apk",
+    certificate: "PRESIGNED",
+    privileged: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+}
+
+android_app_import {
+    name: "GsfProxy",
+    apk: "proprietary/GsfProxy/GsfProxy.apk",
+    certificate: "PRESIGNED",
+    privileged: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+}
+
+android_app_import {
+    name: "FakeStore",
+    apk: "proprietary/FakeStore/FakeStore.apk",
+    certificate: "PRESIGNED",
+    privileged: true,
+    product_specific: true,
+    dex_preopt: { enabled: false },
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-microg",
+    src: "etc/permissions/privapp-permissions-microg.xml",
+    sub_dir: "permissions",
+    product_specific: true,
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "microg-sysconfig",
+    src: "etc/sysconfig/microg-sysconfig.xml",
+    sub_dir: "sysconfig",
+    product_specific: true,
+    filename_from_src: true,
+}
