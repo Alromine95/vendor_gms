@@ -118,40 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/pixel/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
 
 PRODUCT_PACKAGES += \
-    GoogleExtShared \
-    GooglePrintRecommendationService \
-    DocumentsUIGoogle \
-    GoogleExtServices \
-    TagGoogle \
-    CalculatorGooglePrebuilt_85006267 \
-    CalendarGooglePrebuilt \
-    Chrome-Stub \
-    DevicePolicyPrebuilt-v10334460 \
-    GoogleContacts \
-    GoogleTTS \
-    LatinIMEGooglePrebuilt \
-    LocationHistoryPrebuilt \
-    Maps \
-    MarkupGoogle_v2 \
-    ModuleMetadataGoogle \
-    NgaResources \
-    Photos \
-    PrebuiltGmail \
-    SoundAmplifierPrebuilt_v4.8.758106410 \
-    SwitchAccessPrebuilt_1.16.0.726766860 \
-    TrichromeLibrary-Stub \
-    WebViewGoogle-Stub \
-    talkback \
-    AndroidAutoStubPrebuilt \
-    ConfigUpdater \
-    DeviceIntelligenceNetworkPrebuilt-astrea_20240329.00_RC02 \
-    DevicePersonalizationPrebuiltPixel2024-playstore_aiai_20250306.00_RC10 \
-    FilesPrebuilt \
-    GoogleOneTimeInitializer \
-    GoogleRestorePrebuilt-v842048 \
-    PartnerSetupPrebuilt \
-    Phonesky \
-    PrebuiltDeskClockGoogle_76007351 \
+    PrebuiltGmsCoreVic \
     PrebuiltGmsCoreVic_AdsDynamite \
     PrebuiltGmsCoreVic_CronetDynamite \
     PrebuiltGmsCoreVic_DynamiteLoader \
@@ -160,35 +127,24 @@ PRODUCT_PACKAGES += \
     PrebuiltGmsCoreVic_GoogleCertificates \
     PrebuiltGmsCoreVic_MapsDynamite \
     PrebuiltGmsCoreVic_MeasurementDynamite \
+    GoogleServicesFramework \
+    Phonesky \
+    ConfigUpdater \
+    GoogleExtShared \
+    GoogleExtServices \
     AndroidPlatformServices \
+    GoogleRestorePrebuilt-v842048 \
+    PartnerSetupPrebuilt \
+    GoogleOneTimeInitializer \
+    SettingsIntelligenceGooglePrebuilt \
     MlkitBarcodeUIPrebuilt \
     TfliteDynamitePrebuilt \
     VisionBarcodePrebuilt \
-    PrebuiltGmsCoreVic \
-    SafetyHubPrebuilt \
-    ScribePrebuilt_v8.4.773573318 \
-    SearchSelectorPrebuilt \
-    SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt_v811313066 \
-    TurboPrebuilt \
-    Velvet \
-    WellbeingPrebuilt \
-    EmergencyInfoGoogleNoUi \
-    Flipendo \
-    GoogleServicesFramework \
-    SetupWizardPixelPrebuilt_v802960446 \
-    StorageManagerGoogle \
-    TurboAdapter
+    GoogleContacts \
+    GoogleTTS \
+    DocumentsUIGoogle \
+    TagGoogle
 
-ifneq ($(WITH_GMS_COMMS_SUITE),false)
-PRODUCT_COPY_FILES += \
-    vendor/pixel/gms/common/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml
-
-PRODUCT_PACKAGES += \
-    GoogleDialer \
-    PrebuiltBugle \
-    com.google.android.dialer.support
-endif
 
 ifeq ($(WITH_GMS_AICORE),true)
 
